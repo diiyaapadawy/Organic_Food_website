@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Lobster',cursive;
+}
+.navbar-brand{
+    animation: slideLeft 0.7s linear;
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.navbar-brand span{
+    color:rgb(248, 26 , 92);
+    font-size: 40px;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color: rgb(248, 26 , 92);
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid rgb(248, 26 , 92);
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26 , 92);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 60px;
+}
+/* ==================main================== */
+.main{
+    background: url(image/3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'robot';
+    animation: slideTop 0.7s linear;
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26 , 92);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 60px;
+    letter-spacing: 2px;
+    animation: slidebottom 0.7s linear;
+}
+@keyframes slidebottom{
+    0%{
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.btn1:hover{
+    background-color: rgb(120, 23, 52);
+    color: white;
+    transition: 0.5s ease;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+/* ==================NEW================== */
+.imgs{
+    height:200px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+h6{
+    border-bottom: 1px solid rgb(90, 2, 2);
+    margin: 5px 50px;
+    padding: 5px;
+}
+/* =====================Section,PRODUCT========================== */
+h1{
+    font-weight: 700;
+}
+.card{
+    transition: 0.6s ease;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.card-body{
+    padding: 5px 0;
+}
+.card:hover img{
+    transition: 0.5s ;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.imgs2{
+    width: 400px;
+    height: 240px;
+}
+.apple{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(image/ew.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+    animation: slideTop 0.7s linear;
+}
+.col-lg-60{
+    max-width: 40%;
+    margin-top: 8rem;
+    margin-left: 30%;
+    color: rgb(90, 2, 2);
+    text-shadow: 0 5px 10px #000;
+}
+/* =====================news========================== */
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.icons span i:hover{
+    color:rgb(248, 26 , 92);
+    transition: all 0.5s ease;
+}
+.dod{
+    color:rgb(248, 26 , 92);
+    font-size: 25px;
+}
+/* _==================Button-For-Scroll======================_ */
+.up{
+    background-color: rgb(248, 26 , 92);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 6px;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    box-shadow: 0 5px 30px rgb(120, 23, 52);
+    transition: 0.9s;
+    animation: slideRight 0.7s ease forwards;
+    cursor: pointer;
+}
+@keyframes slideRight {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+/* _==================@media======================_ */
+@media screen and (max-width:320px){
+    html{
+        font-size: 50%;
+    }
+    .main h1{
+        width: 70%;
+        font-size: 35px;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .cool{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .cool h1{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool h4{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool button{
+        font-size: 15px;
+        margin-left: 60%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:420px){
+    .main h1{
+        width: 70%;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .cool{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 40%;
+    }
+    .cool h1{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool h4{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool button{
+        font-size: 15px;
+        margin-left: 60%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:550px){
+    .main h1{
+        width: 70%;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .cool{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .cool h1{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool h4{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool button{
+        font-size: 15px;
+        margin-left: 60%;
+        width: 75%;
+    }
+}
+@media screen and (max-width:799px) {
+    .main h1{
+        width: 70%;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .cool{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .cool h1{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool h4{
+        font-size: 20px;
+        margin-left: 60%;
+        width: 100%;
+    }
+    .cool button{
+        font-size: 15px;
+        margin-left: 60%;
+        width: 75%;
+    }
+}
